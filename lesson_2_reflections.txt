@@ -18,3 +18,7 @@ Branches are useful if there are multiple features/versions being worked on in p
 How do the diagrams help you visualize the branch structure?
 
 Digrams help us keep track of which branches are where and understand the reachability.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It merges all changes in each branch into one commit. The merged commit will included changes from all its parents so the diagram will have two arrows pointing from the merged commit to all its parents.
