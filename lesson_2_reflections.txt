@@ -22,3 +22,7 @@ Digrams help us keep track of which branches are where and understand the reacha
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 It merges all changes in each branch into one commit. The merged commit will included changes from all its parents so the diagram will have two arrows pointing from the merged commit to all its parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It will always flag conflicts if there are changes in the same area of the code, even if the reason is obvious. However, this is a protective measure so Git doesn't automatically merge unintended changes.
